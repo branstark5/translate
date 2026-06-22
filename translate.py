@@ -30,7 +30,7 @@ col1, col2, col3 = st.columns(3)
 with col1:
     model_choice = st.selectbox(
         "AI Engine Selection", 
-        ["gemini-3.1-flash-lite", "gemini-3.5-flash"],
+        ["gemini-3.1-flash-lite", "gemini-3.5-flash", "gemini-3.1-pro-preview"],
         help="• gemini-3.1-flash-lite: Best for hyper-budget scale. Costs 50% less than standard flash.\n\n• gemini-3.5-flash: Delivers high-end localization quality and natural dialogue flows."
     )
 
